@@ -40,7 +40,7 @@ resource "azurerm_linux_virtual_machine" "main" {
   name                  = "devnet1vm"
   resource_group_name   = azurerm_resource_group.main.name
   location              = azurerm_resource_group.main.location
-  size                  = "Standard_B2ms"
+  size                  = "Standard_B1s"
   admin_username        = "devlab"
   admin_password        = "Password123"
   network_interface_ids = [azurerm_network_interface.nic1.id, ]
@@ -68,7 +68,7 @@ resource "azurerm_linux_virtual_machine" "main2" {
   name                  = "devnet2vm"
   resource_group_name   = azurerm_resource_group.main.name
   location              = azurerm_resource_group.main.location
-  size                  = "Standard_B2ms"
+  size                  = "Standard_B1s"
   admin_username        = "devlab"
   admin_password        = "Password123"
   network_interface_ids = [azurerm_network_interface.nic2.id, ]
