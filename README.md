@@ -1,5 +1,5 @@
 # AzureVNet2VnetPeering
-This was to test connectivity between two Azure virtual networks with one having a private subnet and the other, a public subnet.
+This was to test connectivity between two Azure virtual networks with one having a private subnet and the other, a public subnet by using Vnet Peering.
 ## Resources:
 - two vitual networks
 - two subnets
