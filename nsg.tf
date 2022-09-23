@@ -105,7 +105,7 @@ resource "azurerm_network_security_group" "nsg2" {
     protocol                   = "Tcp"
     source_address_prefix      = "10.5.0.0/24"
     source_port_range          = "*"
-    destination_address_prefix = "10.7.0.0/16" #Virtual network
+    destination_address_prefix = "10.7.0.0/16" #"Virtual network"
     destination_port_range     = "*"
   }
 }
